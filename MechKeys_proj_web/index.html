@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MechKeys Store</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="stylesheet" href="jscript.js"> -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+<!-- navbar -->
+<nav class="navbar navbar-expand-md navbar-light">
+    <div class="container-xxl">
+        <a href="#intro" class="navbar-brand">
+            <span class="fw-bold text-secondary">MechKeys</span>
+            <img class="img-fluid" src="assets/MechKeys-Logo.png" alt="MechKeys-Logo">
+        </a>
+        <!-- Toggle Button for Mobile Nav -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- navbar- links -->
+        <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#topics">Specs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#reviews">Reviews</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Get in Touch</a>
+                </li>
+                <li class="nav-item d-md-none">
+                    <a class="nav-link" href="#pricing">Pricing</a>
+                </li>
+                <li class="nav-item ms-2 d-none d-md-inline">
+                    <a class="btn btn-secondary" href="#pricing">buy now</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- main image & intro text -->
+<section id="intro">
+    <div class="container-lg">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-5 text-center text-md-start">
+                <h1>
+                    <div class="display-2">Hype it up!</div>
+                    <div class="display-5 text-muted">With New Feels</div>
+                </h1>
+                <p class="lead my-4 text-muted">With our New Azio B68, Feel the Difference with Every Stroke!</p>
+                <a href="#pricing" class="btn btn-secondary btn-lg">Buy Now!</a>
+                <!-- sidebar offcanvas -->
+                
+                 <!-- <a href="#sidebar" class="d-block mt-3" data-bs-toggle="offcanvas" type="button" aria-controls="sidebar">Explore my other books</a> -->
+            </div>
+            <div class="col-md-5 text-center d-none d-md-block">
+                <!-- tooltip -->
+                 <span class="tt" data-bs-placement="bottom" title="Net Ninja Book Review">
+                    <img class="img-fluid" src="assets/keyboard.png" alt="Keyboard-cover">
+                 </span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Pricing part -->
+<section id="pricing" class="bg-light mt-5">
+    <div class="container-lg">
+        <div class="text-center">
+            <h2>Pricing</h2>
+            <p class="lead text-muted">Different switch types is another experience!</p>
+        </div>
+
+        <div class="row my-5 align-items-center justify-content-center">
+            <div class="col-8 col-lg-4 col-xl-3">
+                <div class="card border-0">
+                    <div class="card-body text-center py-4">
+                        <h4 class="card-title">Wired</h4>
+                        <p class="lead card-subtitle">Available in Blue Switch</p>
+                        <p class="display-5 my-4 text-primary font-weight-bold">$45.00</p>
+                        <p class="car-text mx-5 text-muted d-none d-lg-block">"Wired connectivity with Blue Clicky switches, perfect for gamers."</p>
+                        <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-9 col-lg-4 mt-sm-3">
+                <div class="card border-primary border-2">
+                    <div class="card-header text-center text-primary">Most Popular!</div>
+                    <div class="card-body text-center py-5">
+                        <h4 class="card-title">Tri-mode (Wired/BT/2.4GHz)</h4>
+                        <p class="lead card-subtitle">Available in Clicky, Linear, Tactile Switches</p>
+                        <p class="display-5 my-4 text-primary font-weight-bold">$53.00</p>
+                        <p class="car-text mx-5 text-muted d-none d-lg-block">"With Tri-mode connectivity, you can choose the traditional wired method, or go wireless with either Bluetooth or the 2.4GHz dongle."</p>
+                        <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-8 col-lg-4 col-xl-3 mt-sm-3">
+                <div class="card border-0">
+                    <div class="card-body text-center py-4">
+                        <h4 class="card-title">Dual-mode (Wired/BT)</h4>
+                        <p class="lead card-subtitle">Available in Clicky & Tactile Switches</p>
+                        <p class="display-5 my-4 text-primary font-weight-bold">$48.00</p>
+                        <p class="car-text mx-5 text-muted d-none d-lg-block">"With both Wired and Bluetooth connectivity, you can use it at home or go wireless in the office, featuring Tactile Switches for an enhanced typing experience."</p>
+                        <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- topic at a glance -->
+<section id="topics">
+    <div class="container-md">
+        <div class="text-center">
+            <h2>Keyboard Specs?</h2>
+            <p class="lead text-muted">"Where Every Detail Counts—Explore Keyboard Specs."</p>
+        </div>
+        <div class="row my-5 g-5 justify-content-around align-items-center">
+            <div class="col-6 col-lg-4">
+                <img src="assets/keyboard.png" class="img-fluid" alt="keyboard">
+            </div>
+            
+            <div class="col-lg-6">
+            <!-- accordion -->
+            <div class="accordion" id="chapters">
+                <div class="accordion-item">
+                  <div class="card-header" id="heading-1">
+                    <h2 class="mb-0">
+                      <button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#chapter-1" aria-expanded="true" aria-controls="chapter-1">
+                        <h6>Switch Types</h6>
+                      </button>
+                    </h2>
+                  </div>
+                  <!-- accordion item 1 -->
+                  <div id="chapter-1" class="accordion-collapse collapse show" aria-labelledby="heading-1" data-parent="#chapters">
+                    <div class="accordion-body">
+                      <p class="lead m-1"><strong>"The Azio B68 features these Different Switches"</strong></p>
+                      <p><Strong>Cherry MX Blue</Strong> provides a noticeable tactile bump and distinct audible click with each keypress. Requires about 50g of force to actuate with a total travel distance of 4.0mm. Ideal for typists who enjoy audible feedback and tactile responses.</p>
+                      <p><strong>Cherry MX Red</strong> delivers a smooth, uninterrupted keypress with no tactile bump or click. Requires about 45g of force to actuate with a total travel distance of 4.0mm. Known for quiet operation and ease of rapid keypresses.</p>
+                      <p><strong>Cherry MX Brown</strong> offers a subtle tactile bump without an audible click. Requires about 45g of force to actuate with a total travel distance of 4.0mm. Provides tactile feedback without excessive noise, making it suitable for both office and home environments.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="card-header" id="heading-2">
+                      <h2 class="mb-0">
+                        <button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#chapter-2" aria-expanded="true" aria-controls="chapter-2">
+                          <h6>Connectivity Options</h6>
+                        </button>
+                      </h2>
+                    </div>
+                    <!-- accordion item 2 -->
+                    <div id="chapter-2" class="accordion-collapse collapse" aria-labelledby="heading-2" data-parent="#chapters">
+                      <div class="accordion-body">
+                        <p> Enjoy versatile connectivity with the Azio B68. It offers a reliable wired connection via a detachable <strong>USB-C cable</strong>, or switch to wireless using <strong>Bluetooth 5.0</strong> or the <strong>2.4GHz wireless mode</strong> with the provided dongle for a lag-free experience. Ideal for various setups and use cases.</p><strong></strong>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <div class="card-header" id="heading-3">
+                      <h2 class="mb-0">
+                        <button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#chapter-3" aria-expanded="true" aria-controls="chapter-3">
+                          <h6>Backlighting RGB</h6>
+                        </button>
+                      </h2>
+                    </div>
+                    <!-- accordion item 3 -->
+                    <div id="chapter-3" class="accordion-collapse collapse" aria-labelledby="heading-3" data-parent="#chapters">
+                      <div class="accordion-body">
+                        <p>Customize your keyboard with vibrant <strong>RGB backlighting</strong>, featuring 16.8 million colors and multiple lighting modes. Choose from static colors, breathing effects, reactive lighting, or wave patterns to match your style or create a dynamic atmosphere.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <div class="card-header" id="heading-4">
+                      <h2 class="mb-0">
+                        <button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#chapter-4" aria-expanded="true" aria-controls="chapter-4">
+                          <h6>Build and Design</h6>
+                        </button>
+                      </h2>
+                    </div>
+                    <!-- accordion item 4 -->
+                    <div id="chapter-4" class="accordion-collapse collapse" aria-labelledby="heading-4" data-parent="#chapters">
+                      <div class="accordion-body">
+                        Built to last with an <strong>aircraft-grade aluminum frame</strong>, the Azio B68 combines durability with a sleek design. The double-shot PBT keycaps ensure longevity and resistance to wear. Its dimensions and weight are optimized for both stability and portability.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <div class="card-header" id="heading-5">
+                      <h2 class="mb-0">
+                        <button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#chapter-5" aria-expanded="true" aria-controls="chapter-5">
+                          <h6>Special Features</h6>
+                        </button>
+                      </h2>
+                    </div>
+                    <!-- accordion item 5 -->
+                    <div id="chapter-5" class="accordion-collapse collapse" aria-labelledby="heading-5" data-parent="#chapters">
+                      <div class="accordion-body">
+                        <p>The Azio B68 supports <strong>N-Key Rollover</strong>, ensuring every keypress is registered accurately. It includes dedicated macro keys and media controls for enhanced functionality. For added comfort, it features adjustable feet and a wrist rest. Customize your experience further with the proprietary software for key assignments and lighting adjustments.</p>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Review list -->
+<section id="reviews" class="bg-light">
+    <div class="container-lg">
+        <div class="text-center">
+            <h2><i class="bi bi-stars"></i>Reviews</h2>
+            <p class="lead">"The Key to Your Perfect Keyboard—In Every Review."</p>
+        </div>
+
+        <div class="row justify-content-center my-5">
+            <div class="col-lg-8">
+                <div class="list-group">
+                    <div class="list-group-item py-3">
+                        <div class="pb-2">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <h5 class="mb-1">"Perfect Balance of Comfort and Productivity"</h5>
+                        <p>"The Azio B68 has been a game-changer for my productivity. The Tactile Switches provide just the right amount of feedback without being too noisy, making it perfect for typing documents and emails all day long. The option to switch between wired and Bluetooth connectivity is incredibly convenient, especially when I need to move around my home office."</p>
+                        <small>Review by Sarah - The Work-from-Home Professional</small>
+                    </div>
+                    
+                    <div class="list-group-item py-3">
+                        <div class="pb-2">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <h5 class="mb-1">"An Excellent Choice for Serious Gamers"</h5>
+                        <p>"As a gamer, I'm picky about my peripherals, and the Azio B68 has met all my expectations. The Blue Clicky switches deliver that satisfying click with every press, making each gaming session more immersive. The 2.4GHz wireless mode offers low latency, which is crucial for competitive gaming. The build quality feels solid, and the RGB lighting adds a nice touch to my setup."</p>
+                        <small>Review by Mark - The Hardcore Gamer</small>
+                    </div>
+                    <div class="list-group-item py-3">
+                        <div class="pb-2">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <h5 class="mb-1">"Versatile and Portable for On-the-Go Work"</h5>
+                        <p>"I love the versatility of the Azio B68. I switch between multiple devices throughout the day, and the Tri-mode connectivity lets me do that seamlessly. Whether I'm working from a café or a co-working space, the Bluetooth connection is stable, and the battery life is impressive. Plus, the compact design makes it easy to carry in my backpack."</p>
+                        <small>Review by Emily - The Digital Nomad</small>
+                    </div>
+                    <div class="list-group-item py-3">
+                        <div class="pb-2">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <h5 class="mb-1">"Feature-Packed and Budget-Friendly"</h5>
+                        <p>"The Azio B68 offers a lot of features for the price. The customizable RGB lighting is a fun addition, and the tactile switches provide a satisfying typing experience. I appreciate the dual connectivity options, but I mostly use it in wired mode for my desktop. The keyboard's build quality is robust, and it feels premium despite its affordable price point."</p>
+                        <small>Review by James - The Tech Enthusiast</small>
+                    </div>
+                    <div class="list-group-item py-3">
+                        <div class="pb-2">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <h5 class="mb-1">"Quiet and Efficient for Office Use"</h5>
+                        <p>"For someone who spends a lot of time typing reports and emails, the Azio B68 is a joy to use. The Tactile Switches are responsive but quiet enough not to disturb my colleagues. I love that I can use it wired at my desk and switch to wireless when I'm in a meeting room. The keyboard's sleek design also looks great on my desk."</p>
+                        <small>Review by Linda - The Office Worker</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- contact form -->
+
+
+<!-- form-control, form label, form-select, input-group, input-group-text -->
+<section id="contact">
+    <div class="container-lg">
+        <div class="text-center">
+            <h2>Get in Touch</h2>
+            <p class="lead">Question to ask? Fill out the form to contact us directly....</p>
+        </div>
+    </div>
+
+    <div class="row justify-content-center my-5">
+        <div class="col-lg-6">
+            <form>
+                <label for="email" class="form-label" for="">Email Address:</label>
+                <div class="mb-4 input-group">
+                    <span class="input-group-text">
+                        <i class="bi bi-envelope-at-fill"></i>
+                    </span>
+                    <input type="email" class="form-control" id="email" placeholder="e.g. mario@example.com">
+                    <!-- tooltip -->
+                    <span class="input-group-text">
+                        <span class="tt" data-bs-placement="bottom" title="Enter an email address we can reply to.">
+                        <i class="bi bi-question-circle text-muted"></i>
+                        </span>
+                    </span>
+                </div>
+                
+
+                <label for="name" class="form-label">Name</label>
+                <div class="input-group mb-4">
+                    <span class="input-group-text">
+                        <i class="bi bi-person-fill"></i>
+                    </span>
+                    <input type="text" class="form-control" id="name" placeholder="e.g. Mario">
+                </div>
+                
+
+                <label for="subject" class="form-label">What is your question about?</label>
+                <div class="input-group mb-4">
+                    <span class="input-group-text">
+                        <i class="bi bi-chat-right-dots-fill"></i>
+                    </span>
+                    <select class="form-select" id="subject">
+                        <option value="pricing" selected>Pricing query</option>
+                        <option value="content">Content query</option>
+                        <option value="other">Other query</option>
+                    </select>
+                </div>
+                
+
+                <div class="form-floating mb-4 mt-5">
+                    <textarea id="query" class="form-control" placeholder="Your query..." style="height: 12rem;"></textarea>
+                    
+                </div>
+
+                <div class="mb-4 text-center">
+                    <button type="submit" class="btn btn-secondary px-4">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- get updates / modal trigger -->
+<section class="bg-light">
+<div class="container">
+    <div class="text-center">
+        <h2>Stay in the Loop</h2>
+        <p class="lead">Get the latest updates as they happen...</p>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-md-8 text-center">
+            <p class="text-muted my-4">
+              Be the first to know about our latest products, exclusive offers, and exciting updates. Register now to receive:
+            </p>
+            <p class="text-muted my-4"><strong>Product Launches:</strong> Get notified about new keyboard models and accessories.</p>
+            <p class="text-muted my-4"><strong>Special Promotions:</strong> Access exclusive discounts and limited-time offers.</p>
+            <p class="text-muted my-4"><strong>Tech Tips and News:</strong> Stay informed with the latest trends and tips in the world of keyboards.</p>
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#reg-modal">
+                Register for Updates
+            </button>
+        </div>
+    </div>
+
+</div>
+</section>
+
+<!-- THE modal -->
+<div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">Get the Latest Updates</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-lg"></i></button>
+            </div>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis molestiae temporibus, architecto dolore dolores nesciunt eius eum eos reiciendis totam adipisci suscipit iste vitae dicta labore quos? Dolores, in qui.</p>
+                <label for="modal-email" class="form-label">Your Email Address:</label>
+                <input type="email" class="form-control" id="modal-email" placeholder="e.g.maria@example.com">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-body-tertiary text-muted">
+    <!-- Section: Social media -->
+    <div class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <!-- Left -->
+        <a href="" class="me-4 text-reset">
+            <i class="bi bi-facebook"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+            <i class="bi bi-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+            <i class="bi bi-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+            <i class="bi bi-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+            <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+            <i class="bi bi-github"></i>
+        </a>
+      <!-- Right -->
+      <div>
+        
+        
+        
+      </div>
+      <!-- Right -->
+    </div>
+    <!-- Section: Social media -->
+  
+    <!-- Section: Links  -->
+    <div class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>MechKeys
+            </h6>
+            <p>
+              We specialize in high-quality mechanical keyboards that enhance typing and gaming experiences. Combining innovation with craftsmanship, we offer a range of keyboards designed for gamers, typists, and tech enthusiasts. Discover the perfect keyboard to elevate your performance.
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Products
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Coming Soon</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Coming Soon</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Coming Soon</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Coming Soon</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Coming Soon</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Coming Soon</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Coming Soon</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Coming Soon</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="bi bi-house-door-fill"></i> San Mateo, Rizal, Philippines</p>
+            <p>
+                <i class="bi bi-envelope-fill"></i>
+              mail.MechKeys@gmail.com
+            </p>
+            <p><i class="bi bi-person-lines-fill"></i> + 01 234 567 88</p>
+            <p><i class="bi bi-person-lines-fill"></i> + 01 234 567 89</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2024 Copyright:
+      <a class="text-reset fw-bold">Allen Marco Fajardo</a>
+    </div>
+</footer>
+
+
+<script>
+//     $(document).ready(function(){
+//   $('[data-toggle="tooltip"]').tooltip();
+// });
+    const tooltips = document.querySelectorAll('.tt');
+    tooltips.forEach(t => {
+    new bootstrap.Tooltip(t)
+    })
+</script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+
+</body>
+</html>
